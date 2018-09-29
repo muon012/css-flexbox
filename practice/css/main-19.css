@@ -1,0 +1,17 @@
+/* Your code goes here */
+.media {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.figure {
+    flex: 1 1 40%;
+    order: 0;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+.media-body {
+    flex: 1 1 60%;
+}
+p {
+    margin: 0 10px 20px 10px;
+}

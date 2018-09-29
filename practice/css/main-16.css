@@ -1,0 +1,20 @@
+/* Your code goes here */
+.grid {
+    display: flex;
+}
+.gutters {
+    margin: -10px 0 10px -10px;
+}
+.gutters > .cell {
+    padding: 10px 0 0 10px; 
+}
+.cell {
+    flex: 1; 
+    /* flex: 1 1 0% */
+}
+.cell > div {
+    background-color: brown;
+    height: 100%;
+    border: 1px solid black;
+    padding: 5px;
+}

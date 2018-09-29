@@ -1,0 +1,28 @@
+/* Your code goes here */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+#main {
+    display: flex;
+    flex-grow: 1;
+}
+#content {
+    flex: 4 1 0%;
+}
+#secondary {
+    order: -1;
+    flex: 1 1 0%;
+}
+#tertiary {
+    flex: 1 1 0%;
+}
+#header, #footer {
+    text-align: center;
+    padding: 20px;
+}
+#main * {
+    padding: 20px;
+}
